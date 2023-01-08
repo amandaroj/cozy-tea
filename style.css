@@ -1,5 +1,6 @@
 body {
   background-color: #000;
+  opacity: 0.9;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
 }
@@ -9,6 +10,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+main {
+  margin-top: 70px;
 }
 .logo {
   height: 50px;
@@ -20,4 +29,26 @@ ul li {
   color: white;
   text-decoration: underline;
   margin-right: 10px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.banner img {
+  height: 700px;
+  width: 1200px;
+  object-fit: cover;
+}
+
+.mission-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #000;
+  color: white;
+  width: 100%;
 }
