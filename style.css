@@ -76,3 +76,50 @@ ul li {
 .tea-card h4 {
   margin-top: 10px;
 }
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.locations-header {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  color: #fff;
+}
+
+.locations-container img {
+  height: 500px;
+  width: 1200px;
+  object-fit: cover;
+}
+
+.locations {
+  position: absolute;
+  display: flex;
+  gap: 40px;
+  text-align: center;
+}
+
+.location {
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  opacity: 1;
+}
+
+.contact-container {
+  color: #fff;
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  color: #fff;
+  margin-left: 20px;
+}
